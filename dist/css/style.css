@@ -1,0 +1,127 @@
+.article {
+  margin-top: 121px;
+  padding-bottom: 143px;
+}
+
+.article__image {
+  margin-top: 40px;
+}
+
+.article__content {
+  margin-top: 71px;
+}
+
+@media screen and (min-width: 768px), print {
+  .article {
+    margin-top: 171px;
+    padding-bottom: 190px;
+  }
+  .article__thumb {
+    height: 500px;
+    position: relative;
+  }
+  .article__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100P;
+    height: 100%;
+    object-fit: cover;
+  }
+  .article__content {
+    margin-top: 89px;
+  }
+}
+.firstView {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.firstView__ttl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.firstView__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  height: 100px;
+  background-color: #EDF8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding-inline: 5%;
+  margin: 0 auto;
+}
+
+.sitettl-center,
+.headline-center {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 7.9375rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.copyright {
+  font-family: Zen Kaku Gothic New;
+  font-size: 0.625rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px), print {
+  .container {
+    max-width: 1080px;
+  }
+  .sitettl-center {
+    font-size: 3.75rem;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .container {
+    padding-inline: 0;
+  }
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px), print {
+  body {
+    font-size: 1.25rem;
+  }
+}

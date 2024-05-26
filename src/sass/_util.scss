@@ -1,0 +1,46 @@
+.container {
+    padding-inline: 5%;
+    margin: 0 auto;
+}
+
+.sitettl-center,
+.headline-center {
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 7.9375rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+
+.copyright {
+    font-family: Zen Kaku Gothic New;
+    font-size: 0.625rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+
+}
+
+
+@media screen and (min-width: 768px),
+print {
+
+    .container {
+        max-width: 1080px;
+    }
+
+    .sitettl-center {
+        font-size: 3.75rem;
+    }
+}
+
+@media screen and (min-width: 1440px),
+print {
+
+    .container {
+        padding-inline: 0;
+    }
+
+}
